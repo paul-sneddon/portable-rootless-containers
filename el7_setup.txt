@@ -5,7 +5,7 @@ BASE_DIR="~/.containers"
 set -o noclobber
 
 mkdir -p ${BASE_DIR}/install
-mkdir -p ~/.config/containers/
+mkdir -p ${HOME}/.config/containers/
 cd ${BASE_DIR}/install
 
 curl http://mirror.centos.org/centos/7/extras/x86_64/Packages/fuse3-libs-3.6.1-4.el7.x86_64.rpm -O
