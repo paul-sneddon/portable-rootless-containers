@@ -6,7 +6,7 @@ set -o noclobber
 
 mkdir -p ${BASE_DIR}/install
 mkdir -p ~/.config/containers/
-cd ~/.containers/install
+cd ${BASE_DIR}/install
 
 curl http://mirror.centos.org/centos/7/extras/x86_64/Packages/fuse3-libs-3.6.1-4.el7.x86_64.rpm -O
 curl http://mirror.centos.org/centos/7/extras/x86_64/Packages/fuse-overlayfs-0.7.2-6.el7_8.x86_64.rpm -O
